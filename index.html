@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Personal Portfolio of Fazle Rabbi - Full Stack Developer" />
+    <title>Fazle Rabbi | Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- 🧭 Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#home">
+                <img src="img/rabbi.jpeg" alt="Fazle Rabbi Profile">
+                <span>Fazle Rabbi</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link active" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#experience">Work Experience</a></li> 
+                    <li class="nav-item"><a class="nav-link" href="#academics">Educations</a></li> 
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 🏠 Hero Section -->
+    <section id="home"
+        class="hero-section d-flex align-items-center justify-content-center text-center vh-100 position-relative overflow-hidden">
+        <div class="hero-overlay"></div>
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="hero-content animate__animated animate__fadeInUp">
+                        <h1 class="hero-title fw-bold display-3 mb-4">Hi, I'm Fazle Rabbi</h1>
+                        <p class="hero-subtitle lead mb-5" style="color: white;">Full Stack Developer | Problem Solver |
+                            Tech Enthusiast</p>
+                        <a href="#projects" class="btn btn-hero btn-lg">View My Work</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- About Section -->
+    <section id="about" class="about-section py-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 mb-4 mb-lg-0">
+                    <div class="about-content">
+                        <h2 class="section-title mb-4">About Me</h2>
+                        <p class="lead mb-3">Computer Science Engineer with 2.5 years of experience in building
+                            high-performance web applications. Skilled in full-stack development using C#, Python, and
+                            JavaScript. Strong in algorithms, OOP, and database systems like SQL, Oracle, and PL/SQL.
+                            Experienced in optimizing POS, ERP, and supply chain systems.</p>
+                        <div class="skills-list mb-4">
+                            <h5 class="skills-title">Skills & Expertise</h5>
+                            <ul class="list-unstyled">
+                                <li class="skill-item">HTML, CSS, Bootstrap, React JS </li>
+                                <li class="skill-item">C#, .NET, Python, JavaScript</li>
+                                <li class="skill-item">MSSQL, ORACLE,PL/SQL, MYSQL</li>
+                            </ul>
+                        </div>
+                        <p class="text-muted">From building responsive websites to developing interactive applications,
+                            I thrive on turning complex problems into simple, beautiful solutions. When I'm not coding,
+                            you'll find me exploring new technologies or hiking in the mountains.</p>
+                        <p class="text-muted">Let's connect and create something amazing together!</p>
+                        <a href="#contact" class="btn btn-primary btn-lg mt-3">Get in Touch</a>
+                    </div>
+                </div>
+                <div class="col-lg-6 text-center">
+                    <div class="about-image-wrapper">
+                        <img src="img/abm.jpg" alt="Fazle Rabbi" class="about-image">
+                        <div class="image-overlay"></div>
+                        <div class="image-glow"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section py-5">
+        <div class="container">
+            <h2 class="section-title mb-5 text-center">My Projects</h2>
+            <div class="row g-4">
+                <!-- Project Card 3 -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="project-card">
+                        <div class="project-image-wrapper">
+                            <img src="img/dynamic-website.webp" alt="Portfolio Site" class="project-image">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Dynamic Websites</h5>
+                            <p class="card-text">
+                                Build interactive, data-driven websites with real-time updates and personalized user
+                                experiences.
+                            </p>
+                            <ul class="tech-stack">
+                                <li>Bootstrap</li>
+                                <li>.NET/LARAVEL</li>
+                                <li>JavaScript</li>
+                            </ul>
+                            <a href="#" class="btn btn-outline-primary mt-3">View Details</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project Card 4 -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="project-card">
+                        <div class="project-image-wrapper">
+                            <img src="img/pos.png" alt="Chat App" class="project-image">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">POS System</h5>
+                            <p class="card-text">
+                                Simplify sales, manage inventory, and track transactions efficiently with a powerful POS
+                                System.
+                            </p>
+                            <ul class="tech-stack">
+                                <li>LARAVEL</li>
+                                <li>Bootstrap</li>
+                                <li>MYSQL</li>
+                            </ul>
+                            <a href="#" class="btn btn-outline-primary mt-3">View Details</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project Card 5 -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="project-card">
+                        <div class="project-image-wrapper">
+                            <img src="img/inventory-management-service.png" alt="Weather App" class="project-image">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Inventory Management System</h5>
+                            <p class="card-text">
+                                Efficiently track stock, orders, and suppliers for smooth inventory management.
+                            </p>
+                            <ul class="tech-stack">
+                                <li>C#</li>
+                                <li>ASP.NET MVC</li>
+                                <li>Bootstrap</li>
+                                <li>JavaScript</li>
+                                <li>MSSQL</li>
+                            </ul>
+                            <a href="#" class="btn btn-outline-primary mt-3">View Details</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project Card 6 -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="project-card">
+                        <div class="project-image-wrapper">
+                            <img src="img/hos.png" alt="Blog Platform" class="project-image">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Hospital Management Systems</h5>
+                            <p class="card-text">
+                                Manage patient records, appointments, and billing efficiently with a comprehensive
+                                system.
+                            </p>
+                            <ul class="tech-stack">
+                                <li>C#</li>
+                                <li>.NET</li>
+                                <li>ORACLE</li>
+                                <li>Desktop Application</li>
+                            </ul>
+                            <a href="#" class="btn btn-outline-primary mt-3">View Details</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project Card 7 -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="project-card">
+                        <div class="project-image-wrapper">
+                            <img src="img/erp.jpeg" alt="E-Commerce App" class="project-image">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">ERP System</h5>
+                            <p class="card-text">
+                                Integrate business processes, manage resources, and gain real-time insights with ERP.
+                            </p>
+                            <ul class="tech-stack">
+                                <li>C#</li>
+                                <li>ASP.NET MVC</li>
+                                <li>ORACLE</li>
+                                <li>Web Form</li>
+                            </ul>
+                            <a href="#" class="btn btn-outline-primary mt-3">View Details</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project Card 8 -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="project-card">
+                        <div class="project-image-wrapper">
+                            <img src="img/crm.webp" alt="E-Commerce App" class="project-image">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">CRM System</h5>
+                            <p class="card-text">
+                                Effectively manage customer relationships, automate workflows, and enhance sales and
+                                support.
+                            </p>
+                            <ul class="tech-stack">
+                                <li>C#</li>
+                                <li>ASP.NET MVC</li>
+                                <li>MSSQL</li>
+                            </ul>
+                            <a href="#" class="btn btn-outline-primary mt-3">View Details</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 💼 Work Experience Section -->
+    <!-- 💼 Work Experience Section -->
+    <section id="experience" class="experience-section py-5">
+        <div class="container">
+            <h2 class="section-title mb-5 text-center">Work Experience</h2>
+            <div class="row g-4">
+                <!-- Freelancer -->
+                <div class="col-lg-6">
+                    <div class="experience-card">
+                        <div class="card-header d-flex align-items-center">
+                            <div class="role-icon me-3">
+                                <i class="fas fa-briefcase"></i>
+                            </div>
+                            <div>
+                                <h5 class="role-title mb-1">Freelancer</h5>
+                                <p class="role-company text-light mb-0">Freelance</p>
+                                <small class="text-white">Jan 2025 – Present</small>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <ul class="experience-bullets">
+                                <li>Developed dynamic web applications using ASP.NET (C#) and PHP (Laravel).</li>
+                                <li>Designed and optimized databases in MySQL, MSSQL, and Oracle for efficiency and
+                                    scalability.</li>
+                                <li>Built and integrated RESTful APIs to enable secure and seamless data exchange
+                                    between systems.</li>
+                                <li>Created and customized desktop and web applications, including ERP, HR, and employee
+                                    management modules.</li>
+                                <li>Enhanced application performance, resolved complex bugs, and delivered new features
+                                    to improve user experience.</li>
+                            </ul>
+                            <p class="experience-summary text-muted mt-3">As a freelancer, I deliver tailored solutions
+                                that drive efficiency and innovation for diverse clients.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Junior Full Stack Web Developer -->
+                <div class="col-lg-6">
+                    <div class="experience-card">
+                        <div class="card-header d-flex align-items-center">
+                            <div class="role-icon me-3">
+                                <i class="fas fa-code"></i>
+                            </div>
+                            <div>
+                                <h5 class="role-title mb-1">Junior Full Stack Web Developer</h5>
+                                <p class="role-company text-light mb-0">Weblink Communication LTD., Banani, Dhaka</p>
+                                <small class="text-white">Aug 2023 – Dec 2024</small>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <ul class="experience-bullets">
+                                <li>Built an Inventory Management System in ASP.NET with optimized SQL stored procedures
+                                    and algorithms.</li>
+                                <li>Developed a dynamic website for Enrich Coder using Laravel and React.js.</li>
+                                <li>Enhanced WCL Accounting Software with Vue.js, Laravel, and MySQL, improving
+                                    performance and data handling.</li>
+                                <li>Maintained and upgraded ISP CRM software, streamlining operations and user
+                                    interactions.</li>
+                                <li>Optimized a POS system using ASP.NET and MSSQL for faster, efficient transactions.
+                                </li>
+                                <li>Designed responsive UIs with React.js, Bootstrap, JavaScript, jQuery, AJAX, and
+                                    Axios.</li>
+                                <li>Managed MySQL and SQL databases, implementing efficient queries and stored
+                                    procedures.</li>
+                            </ul>
+                            <p class="experience-summary text-muted mt-3">My contributions at Weblink Communication LTD
+                                strengthened business operations by delivering scalable, user-centric solutions with a
+                                focus on performance and reliability.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Web Developer Intern -->
+                <div class="col-lg-6">
+                    <div class="experience-card">
+                        <div class="card-header d-flex align-items-center">
+                            <div class="role-icon me-3">
+                                <i class="fas fa-graduation-cap"></i>
+                            </div>
+                            <div>
+                                <h5 class="role-title mb-1">Web Developer Intern</h5>
+                                <p class="role-company text-light mb-0">URLBD Solution, Dhaka</p>
+                                <small class="text-white">Nov 2022 – Feb 2023</small>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <ul class="experience-bullets">
+                                <li>Developed a full-stack Inventory Management System with scalable architecture.</li>
+                                <li>Designed responsive UIs using Bootstrap, JavaScript, and jQuery for better user
+                                    experience.</li>
+                                <li>Integrated AJAX middleware to enable smooth frontend–backend communication.</li>
+                                <li>Built RESTful APIs in Laravel for secure and efficient data handling.</li>
+                                <li>Managed MySQL database, including schema design and query optimization.</li>
+                            </ul>
+                            <p class="experience-summary text-muted mt-3">My internship at URLBD Solution honed my
+                                full-stack development skills, equipping me with practical experience in building
+                                end-to-end web applications while fostering a strong foundation in teamwork and
+                                problem-solving.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Team Member, SEO (Part-time) -->
+                <div class="col-lg-6">
+                    <div class="experience-card">
+                        <div class="card-header d-flex align-items-center">
+                            <div class="role-icon me-3">
+                                <i class="fas fa-search"></i>
+                            </div>
+                            <div>
+                                <h5 class="role-title mb-1">Team Member, SEO (Part-time)</h5>
+                                <p class="role-company text-light mb-0">JSP Corporation, Canada (Remote)</p>
+                                <small class="text-white">2018 – 2019</small>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <ul class="experience-bullets">
+                                <li>Executed digital marketing campaigns to boost client visibility and engagement.</li>
+                                <li>Performed SEO optimization, including keyword research, on-page SEO, and
+                                    link-building.</li>
+                                <li>Managed and analyzed data using Excel to track metrics and organize deliverables.
+                                </li>
+                            </ul>
+                            <p class="experience-summary text-muted mt-3">My remote work at JSP Corporation sharpened my
+                                digital marketing and SEO skills, enabling me to deliver measurable results for clients
+                                while effectively managing project-based tasks in a virtual environment.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Academic Qualification Section -->
+<section id="academics" class="py-5 bg-light">
+    <div class="container">
+        <h2 class="text-center mb-5">Academic Qualification</h2>
+        <div class="row g-4">
+            <!-- BSc -->
+            <div class="col-md-4">
+                <div class="card academic-card h-100">
+                    <div class="card-body">
+                        <h5 class="card-title">Bachelor of Science (CSE)</h5>
+                        <p class="card-text"><strong>Institution:</strong> Southeast University (SEU)</p>
+                        
+                        <p class="card-text"><strong>Session Year:</strong> 04/2023</p>
+                        <p class="card-text"><strong>Thesis:</strong> “RIMS based Android App”</p>
+                        <p class="card-text"><strong>Play Store:</strong> SEU Researchers</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- HSC -->
+            <div class="col-md-4">
+                <div class="card academic-card h-100">
+                    <div class="card-body">
+                        <h5 class="card-title">Higher Secondary Certificate (HSC)</h5>
+                        <p class="card-text"><strong>Institution:</strong> Banani Bidyaniketon School and College</p>
+                   
+                        <p class="card-text"><strong>Session Year:</strong> 2016</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- SSC -->
+            <div class="col-md-4">
+                <div class="card academic-card h-100">
+                    <div class="card-body">
+                        <h5 class="card-title">Secondary School Certificate (SSC)</h5>
+                        <p class="card-text"><strong>Institution:</strong> Govt. Science College Attached High School</p>
+                       
+                        <p class="card-text"><strong>Session Year:</strong> 2014</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- 🛠️ Skills Section -->
+    <!-- 🛠️ Skills Section -->
+    <section id="skills" class="skills-section py-2 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-4">Core Knowledge</h2>
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
+                    <!-- Reduced height for a smaller section -->
+                    <canvas id="skillsChart" height="250"></canvas>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-5">Contact Me</h2>
+            <div class="row">
+                <!-- Left: Contact Info -->
+                <div class="col-md-5 mb-4">
+                    <h5>Email</h5>
+                    <p>rf.fazle.rabbi@gmail.com</p>
+
+                    <h5>Phone</h5>
+                    <p>+880 1959393384</p>
+
+                    <h5>Location</h5>
+                    <p>East-Nakhalpara, Tejgaon, Dhaka-1215, Bangladesh</p>
+                </div>
+
+                <!-- Right: Google Map -->
+               <div class="col-md-7">
+    <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3649.8885489729647!2d90.39582091448588!3d23.76980069367639!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c7cae4f962bb%3A0x1f89f3a87c556f1c!2sEast-Nakhalpara%2C%20Tejgaon%2C%20Dhaka!5e0!3m2!1sen!2sbd!4v1696437891234!5m2!1sen!2sbd"
+        width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
+</div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="footer-section">
+        <div class="container">
+            <div class="footer-content row align-items-center">
+                <!-- Left: Info -->
+                <div class="col-md-6 mb-3 mb-md-0">
+                    <h5 class="footer-name">Fazle Rabbi</h5>
+                    <p class="footer-info">Email: <a href="mailto:fazlerabbi@example.com"><b style="color: white;">rf.fazle.rabbi@gmail.com</b></a></p>
+                    <p class="footer-info">Phone: <a href="tel:+8801234567890"><b style="color:white;">+880 1959393384</b></a></p>
+                    <p class="footer-info">Location: East-Nakhalpara, Tejgaon, Dhaka-1215, Bangladesh</p>
+                </div>
+
+                <!-- Right: Social Icons -->
+                <div class="col-md-6 text-md-end">
+                    
+                    <a href="https://www.linkedin.com/in/fazle-rabbi-01" class="footer-social"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="https://github.com/md-fazle" class="footer-social"><i class="fab fa-github"></i></a>
+                    
+                </div>
+            </div>
+
+            <!-- Animated Divider -->
+            <div class="footer-divider-wrapper my-3">
+                <span class="footer-divider"></span>
+            </div>
+
+            <div class="text-center footer-copy">
+                &copy; 2025 Fazle Rabbi. All rights reserved.
+            </div>
+        </div>
+    </footer>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+    <!-- Chart.js CDN (load first) -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    <!-- Your custom JS -->
+    <script src="js/charts.js"></script>
+
+
+</body>
+
+</html>
